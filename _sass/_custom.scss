@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// Custom overrides
+// -----------------------------------------------------------------------------
+
+// Justify body prose (the about-page bio and blog posts). Hyphenation keeps
+// justified lines from opening up large inter-word gaps.
+.post > article > .clearfix,
+#markdown-content {
+  text-align: justify;
+  hyphens: auto;
+}
