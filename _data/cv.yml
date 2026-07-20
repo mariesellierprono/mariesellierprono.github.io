@@ -12,26 +12,26 @@
   type: time_table
   contents:
     - title: PhD in theoretical biophysics
-      institution: Laboratoire de Physique de l'ENS (LPENS), ENS – PSL, Paris
+      institution: "<a href='https://www.phys.ens.fr/' target='_blank' rel='noopener'>Laboratoire de Physique de l'ENS (LPENS)</a>, ENS – PSL, Paris"
       year: 2023 – 2026
       description:
         - "Supervisor: Prof. Massimo Vergassola"
         - Models of forced coupled oscillators for frequency parcellation in biological systems (intestine, pial network); analytical and numerical work.
         - Collaborations with M. Cencini (ISC, CNR, Rome) and D. Kleinfeld's group (UC San Diego).
     - title: Statistical mechanics of Mixup data augmentation
-      institution: Information, Learning and Physics laboratory (IdePHICS), EPFL, Lausanne
+      institution: "<a href='https://www.epfl.ch/labs/idephics/' target='_blank' rel='noopener'>Information, Learning and Physics laboratory (IdePHICS)</a>, EPFL, Lausanne"
       year: 2022
       description:
         - "Supervisor: Prof. Florent Krzakala"
         - Replica computations and random matrix theory to compute generalization and training errors, compared against simulations.
     - title: Modelling intracellular transport along microtubules
-      institution: Irène Joliot-Curie Laboratory, Orsay
+      institution: "<a href='https://www.ijclab.in2p3.fr/' target='_blank' rel='noopener'>Irène Joliot-Curie Laboratory</a>, Orsay"
       year: 2021
       description:
         - "Supervisor: Dr. Cécile Appert-Rolland"
         - Python simulations of vesicle transport along microtubules; analytical work with C. Appert-Rolland and Prof. H. Hilhorst.
     - title: Pulsating heat pipe experimental bench
-      institution: CEA, Cryogenics Laboratory and Test Stations, Saclay
+      institution: "<a href='https://www.cea.fr/' target='_blank' rel='noopener'>CEA</a>, Cryogenics Laboratory and Test Stations, Saclay"
       year: 2019
       description:
         - Bench assembly (welding, cable thermalization, leak tests, sensors) and a LabVIEW NXG program for instrument control.
