@@ -10,10 +10,6 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p class="email-line"><i class="fa-solid fa-envelope"></i> marie[dot]sellier-prono[at]phys[dot]ens[dot]fr</p>
-    <div class="affiliations">
-    <a href="https://www.ens.psl.eu/" target="_blank" rel="noopener" title="ENS – PSL"><img class="logo-light" src="/assets/img/ens-psl-logo.png" alt="ENS – PSL"><img class="logo-dark" src="/assets/img/ens-psl-logo-dark.png" alt="ENS – PSL"></a>
-    <a href="https://www.phys.ens.fr/" target="_blank" rel="noopener" title="LPENS"><img class="logo-light" src="/assets/img/lpens-logo.png" alt="LPENS"><img class="logo-dark" src="/assets/img/lpens-logo-dark.png" alt="LPENS"></a>
-    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
