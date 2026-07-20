@@ -30,7 +30,7 @@
       description:
         - "Supervisor: Dr. Cécile Appert-Rolland"
         - Python simulations of vesicle transport along microtubules; analytical work with C. Appert-Rolland and Prof. H. Hilhorst.
-    - title: Pulsating heat pipe experimental bench
+    - title: Assembly and start-up of a pulsating heat pipe experimental bench
       institution: "<a href='https://www.cea.fr/' target='_blank' rel='noopener'>CEA</a>, Cryogenics Laboratory and Test Stations, Saclay"
       year: 2019
       description:
