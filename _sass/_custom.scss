@@ -14,10 +14,18 @@
 // and give it a small envelope icon.
 .more-info .email-line {
   white-space: nowrap;
-  font-size: 0.6rem;
+  font-size: 0.78rem; // largest that fits the profile column on one line (wide desktop)
   letter-spacing: -0.01em;
 
   i {
     margin-right: 0.3em;
+  }
+}
+
+// Mid-width screens have a narrower 30%-wide profile column; shrink the email
+// there so it still fits on a single line.
+@media (min-width: 576px) and (max-width: 991px) {
+  .more-info .email-line {
+    font-size: 0.62rem;
   }
 }
