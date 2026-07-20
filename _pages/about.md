@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Laboratoire de Physique de l'ENS</p>
-    <p>marie[dot]sellier-prono[at]phys[dot]ens[dot]fr</p>
+    <p class="email-line"><i class="fa-solid fa-envelope"></i> marie[dot]sellier-prono[at]phys[dot]ens[dot]fr</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in theoretical biophysics at the [Laboratoire de Physique de l'École Normale Supérieure](https://www.phys.ens.fr/) (LPENS), ENS – PSL, in Paris, supervised by Massimo Vergassola.
+I am a PhD student in theoretical biophysics at the [Laboratoire de Physique de l'École Normale Supérieure](https://www.phys.ens.fr/) (LPENS), ENS – PSL, in Paris, supervised by [Massimo Vergassola](https://scholar.google.com/citations?user=pOHzK_YAAAAJ).
 
 I study *frequency parcellation* in biological systems: how a medium of oscillators with different natural frequencies organizes into synchronized domains. I use coupled-oscillator models such as a Ginzburg-Landau equation, with applications to intestinal slow waves and to the pial arterial network of the brain (see [our paper](https://doi.org/10.1103/8njd-qd14)).
 
