@@ -31,3 +31,15 @@ I study *frequency parcellation* in biological systems: how a medium of oscillat
 In November 2026 I will be joining the group of Prof. Dr. Karen Alim, at TUM (Munich).
 
 See my [CV](/cv/) for more, and the [blog](/blog/) for a guide on how to find a PhD in which I wrote what I wish I had known.
+
+<div class="affiliations">
+  <a href="https://www.ens.psl.eu/" target="_blank" rel="noopener" title="ENS – PSL">
+    <img class="logo-light" src="/assets/img/ens-psl-logo.png" alt="ENS – PSL">
+    <img class="logo-dark" src="/assets/img/ens-psl-logo-dark.png" alt="ENS – PSL">
+  </a>
+  <a href="https://www.phys.ens.fr/" target="_blank" rel="noopener" title="LPENS">
+    <img class="logo-light" src="/assets/img/lpens-logo.png" alt="LPENS">
+    <img class="logo-dark" src="/assets/img/lpens-logo-dark.png" alt="LPENS">
+  </a>
+</div>
+
