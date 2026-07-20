@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Laboratoire de Physique de l'ENS</p>
     <p class="email-line"><i class="fa-solid fa-envelope"></i> marie[dot]sellier-prono[at]phys[dot]ens[dot]fr</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
