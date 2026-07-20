@@ -49,6 +49,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/marie-sellier-prono-b315a417a", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=9VrfY64AAAAJ", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
