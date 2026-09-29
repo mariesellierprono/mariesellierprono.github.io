@@ -4,7 +4,7 @@ title: À propos
 permalink: /fr/
 lang: fr
 alt: / # English version of this page
-description: Docteure en biophysique théorique (ENS – PSL, Paris). Oscillateurs couplés, synchronisation et parcellisation en fréquence dans les systèmes biologiques.
+description: Marie Sellier-Prono, docteure en biophysique théorique (ENS – PSL, Paris). Oscillateurs couplés, synchronisation et parcellisation en fréquence dans les systèmes biologiques.
 subtitle: Docteure en physique, <a href='https://www.phys.ens.fr/'>Laboratoire de Physique de l'ENS</a>, ENS – PSL, Paris.
 
 profile:

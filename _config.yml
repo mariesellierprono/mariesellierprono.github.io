@@ -9,7 +9,7 @@ last_name: Sellier-Prono
 contact_note: >
   The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD in theoretical biophysics from ENS - PSL, Paris. Coupled oscillators, synchronization, and frequency parcellation in biological systems.
+  Marie Sellier-Prono, PhD in theoretical biophysics from ENS - PSL, Paris. Coupled oscillators, synchronization, and frequency parcellation in biological systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -72,6 +72,28 @@ max_width: 930px
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
 og_image: https://mariesellierprono.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
+
+# Facts about the author, used to build the schema.org Person markup on the home page
+person:
+  job_title: Theoretical biophysicist (PhD)
+  affiliation:
+    name: Laboratoire de Physique de l'École Normale Supérieure (LPENS), ENS – PSL
+    url: https://www.phys.ens.fr/
+  alumni_of:
+    - name: École Normale Supérieure – PSL
+      url: https://www.ens.psl.eu/
+    - name: Sorbonne Université
+      url: https://www.sorbonne-universite.fr/
+    - name: Université Paris-Saclay
+      url: https://www.universite-paris-saclay.fr/
+  knows_about:
+    - theoretical biophysics
+    - coupled oscillators
+    - synchronization
+    - Ginzburg-Landau equation
+    - frequency parcellation
+    - intestinal slow waves
+    - pial arterial network
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
