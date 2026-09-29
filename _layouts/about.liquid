@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
+{% assign lang = page.lang | default: site.lang %}
+{% assign t = site.data.i18n[lang] %}
 <div class="post">
+  {% if page.alt and t.lang_notice %}
+    <!-- Link to the other-language version of this page -->
+    <p class="lang-notice"><a href="{{ page.alt | relative_url }}">{{ t.lang_notice }}</a></p>
+  {% endif %}
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -51,7 +57,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">{{ t.posts | default: 'Posts' }}</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -59,7 +65,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ t.publications | default: 'Publications' }}</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -69,7 +75,7 @@ layout: default
       <div class="social">
         <div class="contact-icons">{% social_links %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        <div class="contact-note">{{ t.contact_note | default: site.contact_note }}</div>
       </div>
     {% endif %}
 

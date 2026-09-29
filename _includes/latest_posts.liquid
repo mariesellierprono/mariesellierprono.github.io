@@ -16,7 +16,13 @@
         {% endif %}
         {% for item in latest_posts limit: latest_posts_limit %}
           <tr>
-            <th scope="row" style="width: 1%; white-space: nowrap">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 1%; white-space: nowrap">
+              {%- if page.lang == 'fr' -%}
+                {{ item.date | date: '%d/%m/%Y' }}
+              {%- else -%}
+                {{ item.date | date: '%b %d, %Y' }}
+              {%- endif -%}
+            </th>
             <td>
               {% if item.redirect == blank %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>

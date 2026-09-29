@@ -4,7 +4,7 @@
     - name: Full Name
       value: Marie Sellier-Prono
     - name: Position
-      value: PhD student in theoretical biophysics, LPENS, ENS – PSL
+      value: PhD in theoretical biophysics, LPENS, ENS – PSL (defended September 2026)
     - name: Languages
       value: French (native), English (fluent)
 
@@ -16,8 +16,9 @@
       year: 2023 – 2026
       description:
         - "Supervisor: Prof. Massimo Vergassola"
+        - "Thesis defended on 21 September 2026: <em>From pial arterioles to the small intestine: models of coupled oscillators for the study of frequency parcellation in spatially extended systems</em>."
         - Models of forced coupled oscillators for frequency parcellation in biological systems (intestine, pial network); analytical and numerical work.
-        - Collaborations with M. Cencini (ISC, CNR, Rome) and D. Kleinfeld's group (UC San Diego).
+        - Collaborations with Dr. M. Cencini (ISC, CNR, Rome) and Prof. D. Kleinfeld's group (UC San Diego).
     - title: Statistical mechanics of Mixup data augmentation
       institution: "<a href='https://www.epfl.ch/labs/idephics/' target='_blank' rel='noopener'>Information, Learning and Physics laboratory (IdePHICS)</a>, EPFL, Lausanne"
       year: 2022
@@ -29,18 +30,19 @@
       year: 2021
       description:
         - "Supervisor: Dr. Cécile Appert-Rolland"
-        - Python simulations of vesicle transport along microtubules; analytical work with C. Appert-Rolland and Prof. H. Hilhorst.
+        - Python simulations of vesicle transport along microtubules; analytical work with Dr. C. Appert-Rolland and Prof. H. Hilhorst.
     - title: Assembly and testing of a cryogenic pulsating heat pipe experimental bench
       institution: "<a href='https://www.cea.fr/' target='_blank' rel='noopener'>CEA</a>, Cryogenics Laboratory and Test Stations, Saclay"
       year: 2019
       description:
+        - "Supervisor: Dr. Romain Bruce"
         - Bench assembly (welding, cable thermalization, leak tests, sensors) and a LabVIEW NXG program for instrument control.
 
 - title: Education
   type: time_table
   contents:
     - title: M2, Physics of Complex Systems
-      institution: Sorbonne Université, Paris-Saclay & Paris Cité
+      institution: Sorbonne Université, Université Paris-Saclay & Université Paris Cité
       year: 2021 – 2022
     - title: M1, Fundamental Physics
       institution: Université Paris-Saclay, Orsay
@@ -53,11 +55,24 @@
     - title: Physical Measurements Diploma of Technology (DUT)
       institution: Université Paris-Saclay, Orsay
       year: 2017 – 2019
+    - title: Secondary school
+      institution: Lycée Sainte-Anne, Sainte-Anne-d'Auray & Collège Sainte-Anne, Quiberon (Bretagne)
 
 - title: Publications
   type: list
   contents:
-    - <em>Defects, parcellation, and renormalized negative diffusivities in nonhomogeneous oscillatory media.</em> M. Sellier-Prono, M. Cencini, D. Kleinfeld, M. Vergassola. <em>Physical Review Letters</em> <strong>135</strong>(16), 2025.
+    - >-
+      <em>Defects, parcellation, and renormalized negative diffusivities in nonhomogeneous oscillatory media.</em>
+      M. Sellier-Prono, M. Cencini, D. Kleinfeld, M. Vergassola. <em>Physical Review Letters</em> <strong>135</strong>(16), 2025.
+      DOI: <a href="https://doi.org/10.1103/8njd-qd14" target="_blank" rel="noopener">10.1103/8njd-qd14</a>
+      · <a href="https://www.researchgate.net/publication/396627515_Defects_Parcellation_and_Renormalized_Negative_Diffusivities_in_Nonhomogeneous_Oscillatory_Media" target="_blank" rel="noopener">Open access version (ResearchGate)</a>
+
+- title: Awards
+  type: time_table
+  contents:
+    - title: Poster prize, European Physical Society (200€)
+      institution: "EPS conference <em>Biology for Physics</em>, Barcelona, 6–10 September 2026"
+      year: 2026
 
 - title: Selected Talks
   type: time_table
@@ -78,6 +93,11 @@
 - title: Posters
   type: time_table
   contents:
+    - title: Defects, parcellation, and renormalized negative diffusivities in non-homogeneous oscillatory media
+      institution: "EPS conference <em>Biology for Physics</em>, Barcelona"
+      year: 2026
+      description:
+        - EPS poster prize.
     - title: Defects, parcellation, and renormalized negative diffusivities in non-homogeneous oscillatory media
       institution: XIII GEFENOL-DIFENSC Summer School, CRM, UAB, Barcelona
       year: 2025

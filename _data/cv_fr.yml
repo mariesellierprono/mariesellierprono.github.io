@@ -1,0 +1,118 @@
+- title: Informations générales
+  type: map
+  contents:
+    - name: Nom complet
+      value: Marie Sellier-Prono
+    - name: Situation
+      value: Docteure en biophysique théorique, LPENS, ENS – PSL (thèse soutenue en septembre 2026)
+    - name: Langues
+      value: Français (langue maternelle), anglais (courant)
+
+- title: Expérience
+  type: time_table
+  contents:
+    - title: Doctorat en biophysique théorique
+      institution: "<a href='https://www.phys.ens.fr/' target='_blank' rel='noopener'>Laboratoire de Physique de l'ENS (LPENS)</a>, ENS – PSL, Paris"
+      year: 2023 – 2026
+      description:
+        - "Directeur de thèse : professeur Massimo Vergassola"
+        - "Thèse soutenue le 21 septembre 2026 : <em>From pial arterioles to the small intestine: models of coupled oscillators for the study of frequency parcellation in spatially extended systems</em>."
+        - Modèles d'oscillateurs couplés forcés pour la parcellisation en fréquence dans les systèmes biologiques (intestin, réseau pial) ; travail analytique et numérique.
+        - Collaborations avec le Dr M. Cencini (ISC, CNR, Rome) et le groupe du professeur D. Kleinfeld (UC San Diego).
+    - title: Mécanique statistique de l'augmentation de données Mixup
+      institution: "<a href='https://www.epfl.ch/labs/idephics/' target='_blank' rel='noopener'>Laboratoire Information, Learning and Physics (IdePHICS)</a>, EPFL, Lausanne"
+      year: 2022
+      description:
+        - "Encadrant : professeur Florent Krzakala"
+        - Calculs de répliques et théorie des matrices aléatoires pour obtenir les erreurs de généralisation et d'apprentissage, comparées à des simulations.
+    - title: Modélisation du transport intracellulaire le long des microtubules
+      institution: "<a href='https://www.ijclab.in2p3.fr/' target='_blank' rel='noopener'>Laboratoire Irène Joliot-Curie (IJCLab)</a>, Orsay"
+      year: 2021
+      description:
+        - "Encadrante : Dr Cécile Appert-Rolland"
+        - Simulations Python du transport de vésicules le long des microtubules ; travail analytique avec le Dr C. Appert-Rolland et le professeur H. Hilhorst.
+    - title: Montage et tests d'un banc expérimental de caloduc pulsé cryogénique
+      institution: "<a href='https://www.cea.fr/' target='_blank' rel='noopener'>CEA</a>, Laboratoire de Cryogénie et Stations d'Essais, Saclay"
+      year: 2019
+      description:
+        - "Encadrant : Dr Romain Bruce"
+        - Montage du banc (soudure, thermalisation des câbles, tests d'étanchéité, capteurs) et programme LabVIEW NXG pour le pilotage des instruments.
+
+- title: Formation
+  type: time_table
+  contents:
+    - title: M2 Physique des systèmes complexes
+      institution: Sorbonne Université, Université Paris-Saclay & Université Paris Cité
+      year: 2021 – 2022
+    - title: M1 Physique fondamentale
+      institution: Université Paris-Saclay, Orsay
+      year: 2020 – 2021
+    - title: Licence de physique
+      institution: Université Paris-Saclay, Orsay
+      year: 2019 – 2020
+      description:
+        - Rang 2/100 ; mention très bien.
+    - title: DUT Mesures physiques
+      institution: Université Paris-Saclay, Orsay
+      year: 2017 – 2019
+    - title: Enseignement secondaire
+      institution: Lycée Sainte-Anne, Sainte-Anne-d'Auray & Collège Sainte-Anne, Quiberon (Bretagne)
+
+- title: Publications
+  type: list
+  contents:
+    - >-
+      <em>Defects, parcellation, and renormalized negative diffusivities in nonhomogeneous oscillatory media.</em>
+      M. Sellier-Prono, M. Cencini, D. Kleinfeld, M. Vergassola. <em>Physical Review Letters</em> <strong>135</strong>(16), 2025.
+      DOI : <a href="https://doi.org/10.1103/8njd-qd14" target="_blank" rel="noopener">10.1103/8njd-qd14</a>
+      · <a href="https://www.researchgate.net/publication/396627515_Defects_Parcellation_and_Renormalized_Negative_Diffusivities_in_Nonhomogeneous_Oscillatory_Media" target="_blank" rel="noopener">Version en accès libre (ResearchGate)</a>
+
+- title: Distinctions
+  type: time_table
+  contents:
+    - title: Prix du poster, European Physical Society (200 €)
+      institution: "Conférence EPS <em>Biology for Physics</em>, Barcelone, 6–10 septembre 2026"
+      year: 2026
+
+- title: Présentations lors de conférences ou séminaires
+  type: time_table
+  contents:
+    - title: Models of coupled oscillators to study frequency parcellation in biological systems
+      institution: Séminaire de l'axe Biophysique du LPENS, Paris
+      year: 2025
+    - title: Models of coupled oscillators to study the parcellation of the brain pial arterial network
+      institution: Workshop ICTP-SAIFR sur la synchronisation, São Paulo
+      year: 2025
+    - title: Models of coupled oscillators to study the parcellation of the brain pial arterial network
+      institution: Séminaire QBio, Paris
+      year: 2023
+    - title: Models of coupled oscillators to study the parcellation of the brain pial arterial network
+      institution: Young Physicists Symposium, Paris
+      year: 2023
+
+- title: Posters
+  type: time_table
+  contents:
+    - title: Defects, parcellation, and renormalized negative diffusivities in non-homogeneous oscillatory media
+      institution: "Conférence EPS <em>Biology for Physics</em>, Barcelone"
+      year: 2026
+      description:
+        - Prix du poster de l'EPS.
+    - title: Defects, parcellation, and renormalized negative diffusivities in non-homogeneous oscillatory media
+      institution: XIII GEFENOL-DIFENSC Summer School, CRM, UAB, Barcelone
+      year: 2025
+    - title: Modelling the parcellation of the pial vascular network with coupled oscillators
+      institution: "Symposium EMBL : Biological Oscillators, EMBL, Heidelberg"
+      year: 2024
+    - title: Modelling the parcellation of the pial vascular network with coupled oscillators
+      institution: École d'été de biophysique théorique, Les Houches
+      year: 2023
+
+- title: Enseignement
+  type: time_table
+  contents:
+    - title: Chargée de TD — Mathématiques avancées (L1 physique)
+      institution: Sorbonne Université, Paris
+      year: 2024
+      description:
+        - 52 heures de travaux dirigés (logique, analyse, algèbre) ; rédaction et correction de deux contrôles continus ; surveillance de l'examen final.

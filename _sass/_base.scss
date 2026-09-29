@@ -456,6 +456,21 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Link to the other-language version, shown above the name on the home page
+.lang-notice {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;

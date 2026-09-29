@@ -28,7 +28,7 @@
   {% endif %}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
-  {% elsif page.title != 'blank' and page.url != '/' %}
+  {% elsif page.title != 'blank' and page.url != '/' and page.url != '/fr/' %}
     {% if page.title == null or page.title == '' %}
       {{ page.date | date: '%Y' }} | {{ title }}
     {% else %}
@@ -40,6 +40,21 @@
 </title>
 <meta name="author" content="{{ author_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% assign page_lang = page.lang | default: site.lang %}
+{% if page.alt %}
+  {% comment %} Language alternates for pages that exist in both English and French {% endcomment %}
+  {% assign this_url = page.url | remove_first: 'index.html' | prepend: site.baseurl | prepend: site.url %}
+  {% assign alt_url = page.alt | prepend: site.baseurl | prepend: site.url %}
+  {% if page_lang == 'fr' %}
+    <link rel="alternate" hreflang="fr" href="{{ this_url }}">
+    <link rel="alternate" hreflang="en" href="{{ alt_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ alt_url }}">
+  {% else %}
+    <link rel="alternate" hreflang="en" href="{{ this_url }}">
+    <link rel="alternate" hreflang="fr" href="{{ alt_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ this_url }}">
+  {% endif %}
+{% endif %}
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
@@ -61,7 +76,7 @@
   {% if page.og_image or site.og_image %}
     <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
   {% endif %}
-  <meta property="og:locale" content="{{ site.lang }}">
+  <meta property="og:locale" content="{{ page_lang }}">
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">

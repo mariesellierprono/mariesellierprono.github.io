@@ -1,0 +1,22 @@
+# Interface strings per language. Pages pick a language with `lang: fr` in their
+# front matter; anything missing here falls back to the English text in the templates.
+en:
+  lang_notice: "🇫🇷 Ce site est également disponible en français" # shown above the name on the English home page
+  search: Search
+  posts: Posts
+  publications: Publications
+  switch_label: FR # label of the language switch shown on English pages
+  switch_title: Version française
+  switch_url: /fr/ # where the switch goes when the page has no `alt` translation
+fr:
+  lang_notice: "🇬🇧 This website is also available in English" # shown above the name on the French home page
+  search: Rechercher
+  posts: Blog
+  publications: Publications
+  contact_note: Le meilleur moyen de me contacter est par e-mail.
+  footer_text: >
+    Propulsé par <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+    Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  switch_label: EN
+  switch_title: English version
+  switch_url: /

@@ -1,9 +1,16 @@
+{% assign lang = page.lang | default: site.lang %}
+{% assign t = site.data.i18n[lang] %}
+{% if lang == 'fr' %}
+  {% assign home_url = '/fr/' %}
+{% else %}
+  {% assign home_url = '/' %}
+{% endif %}
 <header>
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      {% if page.permalink != home_url %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -43,14 +50,14 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == home_url %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+          <li class="nav-item {% if page.permalink == home_url %}active{% endif %}">
+            <a class="nav-link" href="{{ home_url | relative_url }}">
               {{- about_title }}
-              {% if page.permalink == '/' %}
+              {% if page.permalink == home_url %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -104,6 +111,9 @@
                     {%- assign url = p.permalink -%}
                   {%- elsif p.permalink contains '/blog/' -%}
                     {%- assign url = '/blog/' -%}
+                  {%- elsif lang != 'en' and p.alt -%}
+                    {%- comment -%} Link to the translated page when there is one {%- endcomment -%}
+                    {%- assign url = p.alt -%}
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
@@ -117,6 +127,14 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <!-- Language switch -->
+          {% if t.switch_url %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ page.alt | default: t.switch_url | relative_url }}" title="{{ t.switch_title }}">
+                {{- t.switch_label -}}
+              </a>
+            </li>
+          {% endif %}
           <!-- Email -->
           <li class="nav-item">
             <a class="nav-link" href="mailto:{{ 'marie.sellier-prono@phys.ens.fr' | encode_email }}" title="Email"><i class="fa-solid fa-envelope"></i></a>
@@ -124,8 +142,8 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link"><i class="ti ti-search"></i> Search</span>
+              <button id="search-toggle" title="{{ t.search | default: 'Search' }}" onclick="openSearchModal()">
+                <span class="nav-link"><i class="ti ti-search"></i> {{ t.search | default: 'Search' }}</span>
               </button>
             </li>
           {% endif %}

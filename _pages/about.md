@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student, <a href='https://www.phys.ens.fr/'>Laboratoire de Physique de l'ENS</a>, ENS – PSL, Paris.
+lang: en
+alt: /fr/ # French version of this page
+subtitle: PhD, <a href='https://www.phys.ens.fr/'>Laboratoire de Physique de l'ENS</a>, ENS – PSL, Paris.
 
 profile:
   align: right
@@ -23,11 +25,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in theoretical biophysics at the [Laboratoire de Physique de l'École Normale Supérieure](https://www.phys.ens.fr/) (LPENS), ENS – PSL, in Paris, supervised by [Massimo Vergassola](https://scholar.google.com/citations?user=pOHzK_YAAAAJ).
+I am interested in theoretical biophysics. I completed my PhD at the [Laboratoire de Physique de l'École Normale Supérieure](https://www.phys.ens.fr/) (LPENS), ENS – PSL, in Paris, supervised by Prof. [Massimo Vergassola](https://scholar.google.com/citations?user=pOHzK_YAAAAJ).
 
-I study *frequency parcellation* in biological systems: how a medium of oscillators with different natural frequencies organizes into synchronized domains. I use coupled-oscillator models such as a Ginzburg-Landau equation, with applications to intestinal slow waves and to the pial arterial network of the brain (see [our paper](https://doi.org/10.1103/8njd-qd14)).
+During my PhD, I studied *frequency parcellation* in biological systems: how a medium of oscillators with different natural frequencies organizes into synchronized domains. I used coupled-oscillator models such as a Ginzburg-Landau equation, with applications to intestinal slow waves and to the pial arterial network of the brain (see [our paper](https://doi.org/10.1103/8njd-qd14)).
 
-In November 2026 I will be joining the group of Prof. Dr. [Karen Alim](https://www.bpm.ph.tum.de/), at TUM (Munich).
+In November 2026 I will be joining the group of Prof. Dr. [Karen Alim](https://www.bpm.ph.tum.de/), at TUM (Munich) as a postdoctoral researcher.
 
 See my [CV](/cv/) for more, and the [blog](/blog/) for a guide on how to find a PhD in which I wrote what I wish I had known.
 
