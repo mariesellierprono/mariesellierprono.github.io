@@ -1,1 +1,1 @@
-document.addEventListener("readystatechange",()=>{if("interactive"===document.readyState){const e=document.querySelector("#search-toggle .nav-link");e&&(e.innerHTML='<i class="ti ti-search"></i> Search')}});
+document.addEventListener("readystatechange",()=>{if("interactive"===document.readyState){const e=document.querySelector("#search-toggle"),t=e&&e.querySelector(".nav-link");t&&(t.innerHTML='<i class="ti ti-search"></i> '+(e.title||"Search"))}});
