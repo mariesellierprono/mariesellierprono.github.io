@@ -41,18 +41,18 @@
 - title: Education
   type: time_table
   contents:
-    - title: M2, Physics of Complex Systems
+    - title: "<a href='https://physics-complex-systems.fr/en/' target='_blank' rel='noopener'>M2, Physics of Complex Systems</a>"
       institution: Sorbonne Université, Université Paris-Saclay & Université Paris Cité
       year: 2021 – 2022
-    - title: M1, Fundamental Physics
+    - title: "<a href='https://www.universite-paris-saclay.fr/formation/master/physique-fondamentale-et-applications/m1-physique-fondamentale' target='_blank' rel='noopener'>M1, Fundamental Physics</a>"
       institution: Université Paris-Saclay, Orsay
       year: 2020 – 2021
-    - title: Bachelor in Physics
+    - title: "<a href='https://www.l3papp.universite-paris-saclay.fr/' target='_blank' rel='noopener'>Bachelor's degree in Physics and Applications</a>"
       institution: Université Paris-Saclay, Orsay
       year: 2019 – 2020
       description:
         - Rank 2/100; highest honours (mention très bien).
-    - title: Physical Measurements Diploma of Technology (DUT)
+    - title: "<a href='https://www.iut-orsay.universite-paris-saclay.fr/formations/dut/mesures-physiques-dut-en-2-ans' target='_blank' rel='noopener'>Physical Measurements Diploma of Technology (DUT)</a>"
       institution: Université Paris-Saclay, Orsay
       year: 2017 – 2019
     - title: Secondary school

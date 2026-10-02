@@ -15,22 +15,22 @@
       institution: "<a href='https://www.phys.ens.fr/' target='_blank' rel='noopener'>Laboratoire de Physique de l'ENS (LPENS)</a>, ENS – PSL, Paris"
       year: 2023 – 2026
       description:
-        - "Directeur de thèse : professeur Massimo Vergassola"
+        - "Directeur de thèse : Professeur Massimo Vergassola"
         - "Thèse soutenue le 21 septembre 2026 : <em>From pial arterioles to the small intestine: models of coupled oscillators for the study of frequency parcellation in spatially extended systems</em>."
         - Modèles d'oscillateurs couplés forcés pour la parcellisation en fréquence dans les systèmes biologiques (intestin, réseau pial) ; travail analytique et numérique.
-        - Collaborations avec le Dr M. Cencini (ISC, CNR, Rome) et le groupe du professeur D. Kleinfeld (UC San Diego).
+        - Collaborations avec le Dr M. Cencini (ISC, CNR, Rome) et le groupe du Professeur D. Kleinfeld (UC San Diego).
     - title: Mécanique statistique de l'augmentation de données Mixup
       institution: "<a href='https://www.epfl.ch/labs/idephics/' target='_blank' rel='noopener'>Laboratoire Information, Learning and Physics (IdePHICS)</a>, EPFL, Lausanne"
       year: 2022
       description:
-        - "Encadrant : professeur Florent Krzakala"
+        - "Encadrant : Professeur Florent Krzakala"
         - Calculs de répliques et théorie des matrices aléatoires pour obtenir les erreurs de généralisation et d'apprentissage, comparées à des simulations.
     - title: Modélisation du transport intracellulaire le long des microtubules
       institution: "<a href='https://www.ijclab.in2p3.fr/' target='_blank' rel='noopener'>Laboratoire Irène Joliot-Curie (IJCLab)</a>, Orsay"
       year: 2021
       description:
         - "Encadrante : Dr Cécile Appert-Rolland"
-        - Simulations Python du transport de vésicules le long des microtubules ; travail analytique avec le Dr C. Appert-Rolland et le professeur H. Hilhorst.
+        - Simulations Python du transport de vésicules le long des microtubules ; travail analytique avec le Dr C. Appert-Rolland et le Professeur H. Hilhorst.
     - title: Montage et tests d'un banc expérimental de caloduc pulsé cryogénique
       institution: "<a href='https://www.cea.fr/' target='_blank' rel='noopener'>CEA</a>, Laboratoire de Cryogénie et Stations d'Essais, Saclay"
       year: 2019
@@ -41,18 +41,18 @@
 - title: Formation
   type: time_table
   contents:
-    - title: M2 Physique des systèmes complexes
+    - title: "<a href='https://physics-complex-systems.fr/' target='_blank' rel='noopener'>M2 Physique des systèmes complexes</a>"
       institution: Sorbonne Université, Université Paris-Saclay & Université Paris Cité
       year: 2021 – 2022
-    - title: M1 Physique fondamentale
+    - title: "<a href='https://www.universite-paris-saclay.fr/formation/master/physique-fondamentale-et-applications/m1-physique-fondamentale' target='_blank' rel='noopener'>M1 Physique fondamentale</a>"
       institution: Université Paris-Saclay, Orsay
       year: 2020 – 2021
-    - title: Licence de physique
+    - title: "<a href='https://www.l3papp.universite-paris-saclay.fr/' target='_blank' rel='noopener'>Licence de physique et applications</a>"
       institution: Université Paris-Saclay, Orsay
       year: 2019 – 2020
       description:
         - Rang 2/100 ; mention très bien.
-    - title: DUT Mesures physiques
+    - title: "<a href='https://www.iut-orsay.universite-paris-saclay.fr/formations/dut/mesures-physiques-dut-en-2-ans' target='_blank' rel='noopener'>DUT Mesures physiques</a>"
       institution: Université Paris-Saclay, Orsay
       year: 2017 – 2019
     - title: Enseignement secondaire
