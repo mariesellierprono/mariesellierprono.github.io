@@ -9,7 +9,7 @@ last_name: Sellier-Prono
 contact_note: >
   The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Marie Sellier-Prono, PhD in theoretical biophysics from ENS - PSL, Paris. Coupled oscillators, synchronization, and frequency parcellation in biological systems.
+  Marie Sellier-Prono, postdoctoral researcher in theoretical biophysics at TUM (Munich), PhD from ENS - PSL, Paris. Coupled oscillators, synchronization, and frequency parcellation in biological systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -75,10 +75,10 @@ og_image: https://mariesellierprono.github.io/assets/img/prof_pic.jpg # The site
 
 # Facts about the author, used to build the schema.org Person markup on the home page
 person:
-  job_title: Theoretical biophysicist (PhD)
+  job_title: Postdoctoral researcher in theoretical biophysics
   affiliation:
-    name: Laboratoire de Physique de l'École Normale Supérieure (LPENS), ENS – PSL
-    url: https://www.phys.ens.fr/
+    name: Technical University of Munich (TUM), Alim group
+    url: https://www.bpm.ph.tum.de/
   alumni_of:
     - name: École Normale Supérieure – PSL
       url: https://www.ens.psl.eu/

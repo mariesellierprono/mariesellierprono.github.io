@@ -4,13 +4,18 @@
     - name: Full Name
       value: Marie Sellier-Prono
     - name: Position
-      value: PhD in theoretical biophysics, LPENS, ENS – PSL (defended September 2026)
+      value: Postdoctoral researcher, Alim group, Technical University of Munich (TUM)
     - name: Languages
       value: French (native), English (fluent)
 
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral researcher
+      institution: "<a href='https://www.bpm.ph.tum.de/' target='_blank' rel='noopener'>Alim group</a>, Technical University of Munich (TUM), Munich"
+      year: 2026 –
+      description:
+        - "Supervisor: Prof. Dr. Karen Alim"
     - title: PhD in theoretical biophysics
       institution: "<a href='https://www.phys.ens.fr/' target='_blank' rel='noopener'>Laboratoire de Physique de l'ENS (LPENS)</a>, ENS – PSL, Paris"
       year: 2023 – 2026

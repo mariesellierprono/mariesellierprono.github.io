@@ -4,13 +4,18 @@
     - name: Nom complet
       value: Marie Sellier-Prono
     - name: Situation
-      value: Docteure en biophysique théorique, LPENS, ENS – PSL (thèse soutenue en septembre 2026)
+      value: Chercheuse postdoctorale, groupe Alim, Université technique de Munich (TUM)
     - name: Langues
       value: Français (langue maternelle), anglais (courant)
 
 - title: Expérience
   type: time_table
   contents:
+    - title: Chercheuse postdoctorale
+      institution: "<a href='https://www.bpm.ph.tum.de/' target='_blank' rel='noopener'>Groupe Alim</a>, Université technique de Munich (TUM), Munich"
+      year: 2026 –
+      description:
+        - "Responsable : Professeure Karen Alim"
     - title: Doctorat en biophysique théorique
       institution: "<a href='https://www.phys.ens.fr/' target='_blank' rel='noopener'>Laboratoire de Physique de l'ENS (LPENS)</a>, ENS – PSL, Paris"
       year: 2023 – 2026
